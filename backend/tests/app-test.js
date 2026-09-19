@@ -23,7 +23,7 @@ app.use(unknownEndpoint);
 app.use(errorHandler);
 
 mongoose
-  .connect("mongodb+srv://suprimrijal1_db_user:5K8dOm9Re4HQNCK7@cluster0.paw7s6o.mongodb.net/week4-activity?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("API Changed")
   .then(() => {
     console.log("connected to db");
   })
