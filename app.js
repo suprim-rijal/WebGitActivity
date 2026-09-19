@@ -7,7 +7,7 @@ app.use(express.json()); // Middleware to parse JSON bodies
 
 // 1. Connect to MongoDB (Ensure MongoDB is running locally on port 27017)
 mongoose
-  .connect("mongodb+srv://suprimrijal1_db_user:5K8dOm9Re4HQNCK7@cluster0.paw7s6o.mongodb.net/week4-activity?retryWrites=true&w=majority&appName=Cluster0")
+  .connect("API")
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("Failed to connect to MongoDB", err));
 
